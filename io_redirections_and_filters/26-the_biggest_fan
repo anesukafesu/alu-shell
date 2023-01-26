@@ -1,0 +1,2 @@
+#!/bin/bash
+cat data | cut -f '1' | sort | uniq -c | sort -gr | head -n 11
