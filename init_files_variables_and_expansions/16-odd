@@ -1,3 +1,2 @@
 #!/bin/bash
 cat /dev/stdin | cut -d "\n" -f $(echo {1..$(wc -l < /dev/stdin)..2} | tr ' ' ',')
-
