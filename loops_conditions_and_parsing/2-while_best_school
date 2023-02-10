@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+# What is the point of these comments
 x=0
 while [ $x -le 9 ]
 do
