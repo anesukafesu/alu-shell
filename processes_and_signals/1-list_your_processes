@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Listing all running processes in a user oriented format
+
+ps -eu
