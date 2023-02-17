@@ -1,5 +1,11 @@
 #!/usr/bin/env bash
 # Show your bash pid
-# shellcheck disable=SC2009
 
-ls /proc/*/exe | grep bash
+
+for file in /proc/*/exe;
+do
+	if [[ $(readlink $file) =~ "/bash" ]]
+	then
+		echo $file | cut -d '/' -f 3	
+	fi
+done
