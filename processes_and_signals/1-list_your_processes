@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # Listing all running processes in a user oriented format
 
-sudo ps -aufh
+sudo ps -axuf
