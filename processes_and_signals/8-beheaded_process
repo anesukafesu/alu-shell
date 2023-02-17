@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# Kill to infinity and beyond without using kill or killall
+# Head on a silver platter
 
-pkill -f -s 15 "7-highlander"
+pkill -f -s 9 "7-highlander"
