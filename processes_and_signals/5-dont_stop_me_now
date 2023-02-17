@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 # Killing to infinity and beyond
 
-kill $(ps -a | grep "bash" | cut -d ' ' -f 1)
+kill "$(ps -a | pgrep "bash" | cut -d ' ' -f 1)"
 
