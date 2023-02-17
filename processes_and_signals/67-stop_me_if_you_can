@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Kill to infinity and beyond without using kill or killall
+
+pkill -f -s 15 "7-highlander"

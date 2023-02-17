@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# Invincible!!!
+
+trap ignore_the_haters 15
+x=1
+while [[ x -lt 2 ]]
+do
+	echo "To infinity and beyond"
+	sleep 2
+done
+
+function ignore_the_haters() {
+	echo "I am invincible!!!"
+}
