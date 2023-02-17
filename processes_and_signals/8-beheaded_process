@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # Head on a silver platter
 
-pkill -f -s 9 "7-highlander"
+pkill -s 9 -f "7-highlander"
