@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 # Killing to infinity and beyond
 
-kill -9 "$(pgrep "bash")"
+kill -9 "$(pgrep 'bash')"
 
