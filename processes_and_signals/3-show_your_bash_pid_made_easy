@@ -4,8 +4,10 @@
 
 for file in /proc/*/exe;
 do
-	if [[ $(readlink $file) =~ "/bash" ]]
+	process_name=$(readlink "$file")
+	if [[ $process_name =~ "/bash" ]]
 	then
-		echo $file | cut -d '/' -f 3	
+		pid=$(echo $file | cut -d '/' -f 3)
+		echo "$pid bash"	
 	fi
 done
