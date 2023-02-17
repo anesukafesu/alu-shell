@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 # Killing to infinity and beyond
 
-echo "$(ps -a | pgrep "bash" | cut -d ' ' -f 1)"
+kill -9 $(pgrep "bash")
 
