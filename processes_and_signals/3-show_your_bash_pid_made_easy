@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
 # Show your bash pid
+# shellcheck disable=SC2009
 
-ls /proc/*/exe | grep bash 
+ls /proc/*/exe | grep bash
